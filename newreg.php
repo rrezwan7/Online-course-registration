@@ -1,4 +1,3 @@
-<?php include 'header.php'; ?>
 <?php
 session_start();
 if($_SESSION['authuser']!=1)
@@ -10,6 +9,7 @@ $connect = mysql_connect("localhost","root","") or die ("check your server conne
 
 mysql_select_db("2008b4a5723p");
 ?>
+<?php include 'header.php'; ?>
 
 <form method="post" action="insert_data.php">
                 <div class="form-group">

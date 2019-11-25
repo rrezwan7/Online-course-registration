@@ -11,3 +11,16 @@ body {
 .stdn-login {
   background: #000;
 }
+
+.form {
+  margin: 25vh auto;
+}
+
+.form h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+form.form-inline {
+  margin-bottom: 10px;
+}

@@ -5,7 +5,7 @@
             <div class="text-center">
                 <h2>Student Login</h2>
             </div>
-            <form  name="form-1" action="result.php" method="get">
+            <form  name="form-1" action="result.php" method="post">
                 <div class="form-group">
                   <label for="user-name">User Name</label>
                   <input type="text" name="user" id="" class="form-control">
@@ -27,14 +27,14 @@
         <div class="text-center">
                 <h2>Faculty Login</h2>
             </div>
-            <form  name="form-2" action="faculty.php" method="get">
+            <form  name="form-2" action="result1.php" method="post">
                 <div class="form-group">
-                  <label for="user-name">Faculty ID</label>
-                  <input type="text" name="user" id="" class="form-control">
+                  <label for="myusername">Faculty ID</label>
+                  <input type="text" name="myusername" id="myusername"  class="form-control">
                 </div>
                 <div class="form-group">
-                    <label for="pass">Password</label>
-                    <input type="password" name="pass" id="" class="form-control">
+                    <label for="mypassword">Password</label>
+                    <input type="password" name="mypassword" id="mypassword" class="form-control">
                 </div>
                 <div class="form-group">
                 <button class="btn btn-success" type="submit">Submit</button>
@@ -44,7 +44,7 @@
         
         </div>
         </div>
-  
+
 
 
 
