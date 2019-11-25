@@ -1,8 +1,10 @@
+</div>
+</div>
 <div class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
       <p class="navbar-text text-center">© 2019 - Site Built By Shibli.
       </p>
-      S
+    
     </div>
 </div>
     <!-- Optional JavaScript -->

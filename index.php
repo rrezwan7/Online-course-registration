@@ -1,7 +1,5 @@
 <?php include 'header.php'; ?>
-<div class="container">
-   
-    <div class="row">
+
         <!--Student Login-->
         <div class="col-md-6 bg-info">
             <div class="text-center">
@@ -18,7 +16,7 @@
                 </div>
                 <div class="form-group">
                 <button class="btn btn-success" type="submit">Submit</button>
-                <a href="new-reg.php" class="btn btn-success">SignUp</a>
+                <a href="newreg.php" class="btn btn-success">SignUp</a>
                 
                 </div>
             </form>
@@ -46,8 +44,7 @@
         
         </div>
         </div>
-    </div>
-</div>
+  
 
 
 
