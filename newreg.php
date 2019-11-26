@@ -11,27 +11,31 @@ mysql_select_db("2008b4a5723p");
 ?>
 <?php include 'header.php'; ?>
 
-<form method="post" action="insert_data.php">
+<div class="inner">
+        
+    <h2>New Student Registration</h2>
+    <form method="post" action="insert_data.php">
                 <div class="form-group">
                   <label for="name">Name</label>
-                  <input type="text" name="name" id="" class="form-control">
+                  <input class="form-control mr-2" type="text" name="name" id="" >
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" name="pass" id="" class="form-control">
+                    <input type="password" name="pass" id="" class="form-control mr-2">
                 </div>
                 <div class="form-group">
                 <label for="branch">Department</label>
-                  <input type="text" name="branch" id="" class="form-control">
+                  <input type="text" name="branch" id="" class="form-control mr-2">
                 </div>
                 <div class="form-group">
                 <label for="year">Semester</label>
-                  <input type="text" name="year" id="" class="form-control">
+                  <input type="text" name="year" id="" class="form-control mr-2">
                 </div>
-                <div class="form-group">
-                <button class="btn btn-success" type="submit" value="Register">Submit</button>            
-                </div>
-</form>
+                
+                <button class="btn btn-info btn-inline" type="submit" value="Register">Submit</button>            
+                
+    </form>
+</div>
 
 
 <?php include 'footer.php'; ?>

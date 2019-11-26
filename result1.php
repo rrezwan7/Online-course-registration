@@ -18,7 +18,7 @@ exit();
 
 include 'header.php'; 
 ?>
-
+    <div class="inner">
     <div class="form">
         <h2>Teacher's Panel</h2>
         <form class="form-inline" action="select_course.php" method="post">
@@ -41,6 +41,7 @@ include 'header.php';
             <input type="submit" class="btn btn-info" value="Add New Course">
         </form>
 
+    </div>
     </div>
 
 

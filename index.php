@@ -1,18 +1,19 @@
 <?php include 'header.php'; ?>
 
         <!--Student Login-->
-        <div class="col-md-6 bg-info">
+        <div class="col-md-6">
+            <div class="inside-form">
             <div class="text-center">
                 <h2>Student Login</h2>
             </div>
             <form  name="form-1" action="result.php" method="post">
                 <div class="form-group">
-                  <label for="user-name">User Name</label>
-                  <input type="text" name="user" id="" class="form-control">
+                  <label for="myusername">User Name</label>
+                  <input type="text" id="myusername" name="myusername" class="form-control">
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="" class="form-control">
+                    <input type="password" id="mypassword" name="mypassword" class="form-control">
                 </div>
                 <div class="form-group">
                 <button class="btn btn-success" type="submit">Submit</button>
@@ -20,10 +21,12 @@
                 
                 </div>
             </form>
+            </div>
         
         </div>
         <!-- Faculty Login -->
-        <div class="col-md-6 bg-info">
+        <div class="col-md-6">
+        <div class="inside-form">
         <div class="text-center">
                 <h2>Faculty Login</h2>
             </div>
@@ -41,9 +44,11 @@
                
                 </div>
             </form>
+            </div>
         
         </div>
         </div>
+
 
 
 

@@ -8,19 +8,34 @@ body {
   opacity: 0.8;
 }
 
+.inside-form {
+  padding: 40px;
+  margin-right: 5px;
+
+  border: 2px solid darkslategray;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 1px 5px 5px #343a40;
+}
+
 .stdn-login {
   background: #000;
 }
 
-.form {
-  margin: 25vh auto;
+.inner {
+  margin: 80px auto;
 }
 
-.form h2 {
+.inner h2 {
   text-align: center;
   padding-bottom: 20px;
 }
 
 form.form-inline {
   margin-bottom: 10px;
+}
+
+li {
+  font-size: 25px;
 }

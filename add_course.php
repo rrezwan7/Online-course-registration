@@ -8,7 +8,7 @@ exit();
 
 include 'header.php'; 
 ?>
-   <div class="form">
+   <div class="inner">
         <h2>New Course Registration</h2>
         <form  action="insert_course.php" method="post">
             <div class="form-group">
@@ -28,3 +28,5 @@ include 'header.php';
     
 
     </div>
+
+    <?php include 'footer.php'; ?>
