@@ -39,3 +39,7 @@ form.form-inline {
 li {
   font-size: 25px;
 }
+
+a.back {
+  display: block;
+}
