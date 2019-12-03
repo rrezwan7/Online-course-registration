@@ -25,4 +25,4 @@ while ($rows = mysql_fetch_assoc($results)) {
 }
 echo "</ol> </div>\n";
 
-include 'footer.php';
+include 'footer.php'; ?>

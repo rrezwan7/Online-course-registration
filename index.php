@@ -1,4 +1,37 @@
-<?php include 'header.php'; ?>
+
+<?php
+session_start();
+session_destroy();
+session_start();
+$_SESSION['authuser']=1;
+
+if(isset($_POST['save_btn']))
+    {      
+     
+	 
+$connect = mysql_connect("localhost", "root", "") or die ("check your server connection");
+$uname= $_GET['myusername'];
+$upass= $_GET['mypassword'];
+
+$_SESSION['username']=$uname;
+$_SESSION['pass']=$upass;
+
+mysql_select_db ("2008b4a5723p");
+$query="SELECT * FROM members WHERE username='$uname' and password='$upass'";
+
+$results=mysql_query($query) or die(mysql_error());
+
+if($row = mysql_fetch_array($results))
+{
+echo'<script> window.location="SchoolDB/result.php"; </script> ';
+}
+else{
+  echo"LOGIN FAILED(INVALID USERNAME OR PASSWORD)";
+  exit();
+  }
+  }
+
+ include 'header.php'; ?>
 
         <!--Student Login-->
         <div class="col-md-6">
